@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        title: ['NeuePowerTrialUltra', 'sans-serif'],
+        body: ['KollektifBold', 'sans-serif']
+        
+      },
       gridTemplateColumns: {
         'custom': '1fr 0.5fr 0.5fr 1fr 0.75fr',
       },

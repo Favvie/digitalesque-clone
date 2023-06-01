@@ -26,7 +26,7 @@ const Header = () => {
             <Link href='/'>
 
           <div className='flex justify-between py-8'>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold mt-12 md:mt-0">The Digitalesque Website Menu</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold mt-12 md:mt-0">The Digitalesque Website Menu</h2>
           <div className='flex items-center gap-2 text-lg font-medium  absolute right-5 top-4 md:relative md:right-0 md:top-0 ' onClick={() => setIsOpen(!isOpen)}>Close <IoMdClose className='text-white text-[40px]'/></div>
 
           </div>
@@ -36,7 +36,7 @@ const Header = () => {
               <div className='md:col-start-2'>
                 <Link href='/about'>
             <div>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold hover:underline">The Company</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold hover:underline">The Company</h2>
               <section>
                 <div></div>
               </section>
@@ -50,21 +50,21 @@ const Header = () => {
                 <Link href='/blueprint'>
                 
             <div>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold hover:underline">The Blueprint</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold hover:underline">The Blueprint</h2>
               <p className="md:text-lg">Our detailed plan on how we engage in business.</p>
         <div className='w-full h-[2px] bg-white my-6'></div>
                   </div>
                 </Link>
                 <Link href='/'>
             <div>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold hover:underline">The Clientele</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold hover:underline">The Clientele</h2>
               <p className="md:text-lg">The individuals and organizations we have served.</p>
         <div className='w-full h-[2px] bg-white my-6'></div>
                   </div>
                 </Link>
                 <Link href='/capabilities'>
             <div>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold hover:underline">Our Capabilities</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold hover:underline">Our Capabilities</h2>
                   <p className="md:text-lg">More details on the kind of workload we can carry.</p>
                           <div className='w-full h-[2px] bg-white my-6'></div>
 
@@ -72,7 +72,7 @@ const Header = () => {
                 </Link>
                 <Link href='/insights'>
             <div>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold hover:underline">Our Insights</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold hover:underline">Our Insights</h2>
                   <p className="md:text-lg">Thoughts from us or our friends in the industry.</p>
                           <div className='w-full h-[2px] bg-white my-6'></div>
 
@@ -80,7 +80,7 @@ const Header = () => {
                 </Link>
                 <Link href='/contacts'>
             <div>
-              <h2 className="text-xl md:text-3xl font-heading tracking-wide font-extrabold hover:underline">Our Contacts</h2>
+              <h2 className="text-xl md:text-3xl font-title tracking-wide font-extrabold hover:underline">Our Contacts</h2>
                   <p className="md:text-lg">A list of options to connect with our firm.</p>
                           <div className='w-full h-[2px] bg-white my-6'></div>
 

@@ -14,6 +14,8 @@ import BusinessSection from '@/components/BusinessSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import '../assets/fonts/fonts.css';
+
 export default function Home() {
    useEffect(() => {
     AOS.init({}); // Initialize AOS with default options

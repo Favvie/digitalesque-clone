@@ -3,7 +3,7 @@ import React from 'react'
 function BluePrintSection() {
   return (
     <section className='mt-20 max-w-[1400px] p-6 md:w-[75%] mx-auto mb-12'>
-        <h1 className="text-2xl md:text-4xl md:leading-tight md:pr-10 font-heading tracking-wide font-black md:font-extrabold">We are a digital transformation consultancy and engineering company that delivers cutting-edge solutions for ambitious companies, brands, and founders.We are a digital transformation consultancy and engineering company that delivers cutting-edge solutions for ambitious companies, brands, and founders.</h1>
+        <h1 className="text-2xl md:text-4xl md:leading-tight md:pr-10 font-title tracking-wide font-black md:font-extrabold">We are a digital transformation consultancy and engineering company that delivers cutting-edge solutions for ambitious companies, brands, and founders.We are a digital transformation consultancy and engineering company that delivers cutting-edge solutions for ambitious companies, brands, and founders.</h1>
 
         <div className='w-full h-[2px] bg-black my-6'></div>
         <div className='grid grid-cols-1 md:grid-cols-2 p-2'>

@@ -1,0 +1,31 @@
+/* Webfont: Kollektif-Bold */@font-face {
+    font-family: 'KollektifBold';
+    src: url('Kollektif-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Kollektif-BoldItalic */@font-face {
+    font-family: 'KollektifBoldItalic';
+    src: url('Kollektif-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Kollektif-Italic */@font-face {
+    font-family: 'KollektifItalic';
+    src: url('Kollektif-Italic.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Kollektif-Regular */@font-face {
+    font-family: 'Kollektif';
+    src: url('Kollektif.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
