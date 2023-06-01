@@ -1,9 +1,23 @@
 import React from 'react'
+import { motion } from 'framer-motion';
+import 'tailwindcss/tailwind.css';
 
 function ClientSection() {
+   const animationVariants = {
+    initial: {
+      opacity: 0,
+      y: -20,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  }
   return (
-      <section>
-        <section className="px-6 md:px-44 mx-auto pt-32 pb-14 bg-white"><span className="block"><h3 className="text-2xl md:text-4xl md:leading-tight max-w-[40ch] font-heading tracking-wide font-extrabold">We have worked closely and successfully with government departments and major companies, and pride ourselves on meeting and exceeding our client’s high expectations. Here, you can find a selection of the many client organisations we already work closely alongside:</h3></span></section>
+    <section>
+       
+        
+        <section data-aos='fade-down' data-aos-duration='2000' className="px-6 md:px-44 mx-auto pt-32 pb-14 bg-white"><span className="block"><h3 className="text-2xl md:text-4xl md:leading-tight max-w-[40ch] font-heading tracking-wide font-extrabold">We have worked closely and successfully with government departments and major companies, and pride ourselves on meeting and exceeding our client’s high expectations. Here, you can find a selection of the many client organisations we already work closely alongside:</h3></span></section>
 
         <section className='max-w-[1400px] p-6 md:w-[75%] mx-auto'>
         <div className='w-full h-[2px] bg-black mb-6'></div>

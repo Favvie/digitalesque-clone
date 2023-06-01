@@ -5,12 +5,17 @@ import 'swiper/swiper-bundle.min.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-function HeroSection({title}) {
+
+function HeroSection({ title }) {
+
   return (
     <section className='max-w-[1400px] p-4 md:w-[75%] mx-auto'>
-        <h1 className='text-[2.5rem] leading-tight md:text-7xl mt-[54vh] md:leading-none font-heading tracking-wide font-black max-w-[20ch] p-2'>
+
+       <h1 data-aos='fade-down' data-aos-easing='linear' data-aos-duration='1500' className='text-[2.5rem] leading-tight md:text-7xl mt-[54vh] md:leading-none font-heading tracking-wide font-black max-w-[20ch] p-2'>
           {title}
         </h1>
+ 
+       
         <div className='w-full bg-black h-[2px] mb-6 mt-10'></div>
 
         <div>

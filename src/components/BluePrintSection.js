@@ -1,9 +1,26 @@
 import React from 'react'
 
+import { motion } from 'framer-motion';
+import 'tailwindcss/tailwind.css';
+
+
 function BluePrintSection() {
+  const animationVariants = {
+    initial: {
+      opacity: 0,
+      y: -20,
+      scale: 0
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  }
   return (
-    <section className='mt-20 max-w-[1400px] p-6 md:w-[75%] mx-auto mb-12'>
-        <h1 className="text-2xl md:text-4xl md:leading-tight md:pr-10 font-heading tracking-wide font-black md:font-extrabold">Our blueprint for digital transformation below gives an overview of the sequence, checklist, and guides at all levels of the organization through the journey ensuring that no area of the strategy is left unattended during the period of change:</h1>
+    <section className='mt-20 md:mt-10 max-w-[1400px] p-6 md:w-[75%] mx-auto mb-12'>
+
+        
+        <h1 data-aos='fade-down' data-aos-duration='2000' className="text-2xl md:text-4xl md:leading-tight md:pr-10 font-heading tracking-wide font-black md:font-extrabold">Our blueprint for digital transformation below gives an overview of the sequence, checklist, and guides at all levels of the organization through the journey ensuring that no area of the strategy is left unattended during the period of change:</h1>
         <div className='mt-20 grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-10'>
           <div>
             <div className='w-full h-[2px] bg-black my-4'></div>
